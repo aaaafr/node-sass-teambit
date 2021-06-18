@@ -18,10 +18,14 @@
                     align-items: center;
                     list-style: none;
                     li{
+                        font-weight: 600;
                         padding:10px;
                         a{
                                 text-decoration: none;
                                 color:$text_color;
+                                i{
+                                    padding-left: 5px;
+                                }
 
                         }
                         button {
@@ -30,6 +34,7 @@
                             border-radius: 10%;
                             background-color: $button_text;
                             border: 2px solid $button_color;
+                            font-weight: 600;
 
 
                             img{
@@ -49,7 +54,7 @@
         }
         
         .intro {
-            background-image: url(/dist/img/illustration-main.jpg);
+            background-image: url('../img/illustration-main.jpg');
             background-size: 50%;
             background-repeat: no-repeat;
             background-position: right;
@@ -60,12 +65,14 @@
                 color: $text_color;
 
                 h1{
-                    font-size: 55px;
+                    font-size: 50px;
                     padding: 20px;
+                    font-weight: 600;
                 }
                 p{
                     font-size: 25px;
                     padding: 20px;
+                    font-weight: 300;
                 }
             }
 
@@ -87,13 +94,14 @@
                     a{
                         text-decoration: none;
                         color:$button_text;
+                        font-weight: 700;
                     }
                 }
             }
 
             .link{
                 padding: 20px;
-                color:$text_color;
+                color:$text_clear;
                 i{
                     margin-left: 5px;
                 }

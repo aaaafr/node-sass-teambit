@@ -1,0 +1,60 @@
+#site_main {
+    .rose{
+        background-color: $background_color;
+        margin-top: 50px;
+    .text{
+        display: flex;
+        justify-content: center;
+        h1{
+            text-align: center;
+            padding-left: 300px;
+            padding-right: 300px;
+            padding-top:50px;
+            color:$text_color;
+            font-weight: 500;
+        }
+        #small{
+            padding-left: 400px;
+            padding-right: 400px;
+        }
+    }
+    .turnover {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        padding-top: 50px;
+        .disconnected , .nofeedback, .nosafe{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            width: 200px;           
+            img{
+                width:100%;
+            } 
+        }
+    }
+    .desk{
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        p{
+            padding-top:20px;
+            color: $text_color;
+        }
+    }
+    .bunny{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border-bottom: 2px solid $text_color;
+        img{
+            width: 350px;
+        }
+    }
+
+}
+
+}
